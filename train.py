@@ -8,8 +8,8 @@ from loading import load_dataset
 from keras.models import load_model
 
 
-batch_size = 128
-epochs = 2
+batch_size = 256
+epochs = 25
 X_train, X_test, y_train, y_test,num_classes = load_dataset()
 print(num_classes,'classes')
 
